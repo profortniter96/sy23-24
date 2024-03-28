@@ -2,19 +2,16 @@
     Dim WithEvents cs As New coinslot
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ' PictureBox1.Visible = True
         Button1.Visible = True
-        ' PictureBox2.Visible = False
         Button2.Visible = False
-        ' PictureBox4.Visible = True
-        ' PictureBox3.Visible = True
+        UserControl11.Visible = True
+        UserControl31.Visible = False
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        'PictureBox2.Visible = True
-        ' Button2.Visible = True
-        ' PictureBox1.Visible = False
-        '  Button1.Visible = False
-        '  PictureBox3.Visible = False
+        Button2.Visible = True
+        Button1.Visible = False
+        UserControl11.Visible = False
+        UserControl31.Visible = True
     End Sub
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         OpenFileDialog1.ShowDialog()
@@ -72,5 +69,7 @@
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         cs.coinreturn()
         Label1.Text = cs.total.ToString("C2")
+        Label3.Visible = True
+        Me.BackColor = Color.Green
     End Sub
 End Class

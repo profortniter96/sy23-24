@@ -11,7 +11,7 @@
     End Sub
 
 
-    Private Sub productcontrol_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub UserControl1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox1.Image = picture
     End Sub
     Public Sub buy()
