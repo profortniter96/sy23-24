@@ -16,10 +16,10 @@
         '  Button1.Visible = False
         '  PictureBox3.Visible = False
     End Sub
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         OpenFileDialog1.ShowDialog()
     End Sub
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         OpenFileDialog1.ShowDialog()
     End Sub
 
