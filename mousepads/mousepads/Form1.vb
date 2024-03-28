@@ -2,19 +2,19 @@
     Dim WithEvents cs As New coinslot
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        PictureBox1.Visible = True
+        ' PictureBox1.Visible = True
         Button1.Visible = True
-        PictureBox2.Visible = False
+        ' PictureBox2.Visible = False
         Button2.Visible = False
-        PictureBox4.Visible = True
-        PictureBox3.Visible = True
+        ' PictureBox4.Visible = True
+        ' PictureBox3.Visible = True
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        PictureBox2.Visible = True
-        Button2.Visible = True
-        PictureBox1.Visible = False
-        Button1.Visible = False
-        PictureBox3.Visible = False
+        'PictureBox2.Visible = True
+        ' Button2.Visible = True
+        ' PictureBox1.Visible = False
+        '  Button1.Visible = False
+        '  PictureBox3.Visible = False
     End Sub
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
         OpenFileDialog1.ShowDialog()
