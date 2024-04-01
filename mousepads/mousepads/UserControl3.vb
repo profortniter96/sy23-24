@@ -19,7 +19,7 @@
             count = count - 1
         End If
         If count = 0 Then
-            PictureBox1.Image = Nothing
+            'PictureBox1.Image = Nothing
         End If
     End Sub
 End Class

@@ -35,7 +35,11 @@ Partial Class Form1
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+<<<<<<< HEAD
         Me.Button8 = New System.Windows.Forms.Button()
+=======
+        Me.Button7 = New System.Windows.Forms.Button()
+>>>>>>> main
         Me.UserControl31 = New mousepads.UserControl3()
         Me.UserControl11 = New mousepads.UserControl1()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -164,6 +168,7 @@ Partial Class Form1
         Me.Button6.Text = "Quarter"
         Me.Button6.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
         'Button8
         '
         Me.Button8.Location = New System.Drawing.Point(245, 188)
@@ -172,6 +177,16 @@ Partial Class Form1
         Me.Button8.TabIndex = 38
         Me.Button8.Text = "Buy"
         Me.Button8.UseVisualStyleBackColor = True
+=======
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(245, 192)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(154, 88)
+        Me.Button7.TabIndex = 37
+        Me.Button7.Text = "buy"
+        Me.Button7.UseVisualStyleBackColor = True
+>>>>>>> main
         '
         'UserControl31
         '
@@ -198,12 +213,22 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
+<<<<<<< HEAD
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 28.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(164, 447)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(208, 54)
         Me.Label3.TabIndex = 41
         Me.Label3.Text = "OWNED"
+=======
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(37, 425)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(346, 91)
+        Me.Label3.TabIndex = 41
+        Me.Label3.Text = "OWNED"
+        Me.Label3.Visible = False
+>>>>>>> main
         '
         'Form1
         '
@@ -211,9 +236,13 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(424, 520)
         Me.Controls.Add(Me.Label3)
+<<<<<<< HEAD
         Me.Controls.Add(Me.UserControl11)
         Me.Controls.Add(Me.UserControl31)
         Me.Controls.Add(Me.Button8)
+=======
+        Me.Controls.Add(Me.Button7)
+>>>>>>> main
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox6)
@@ -225,6 +254,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.UserControl11)
+        Me.Controls.Add(Me.UserControl31)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -248,7 +279,11 @@ Partial Class Form1
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+<<<<<<< HEAD
     Friend WithEvents Button8 As Button
+=======
+    Friend WithEvents Button7 As Button
+>>>>>>> main
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     '  Friend WithEvents Label1 As Label
