@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports System.Windows
+
+Public Class Form1
     Dim WithEvents cs As New coinslot
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -72,4 +74,14 @@
         Me.BackColor = Color.Green
         Label3.Visible = True
     End Sub
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Me.Hide()
+        Dim f2 As New Form2
+        f2.ShowDialog()
+        Me.Show()
+    End Sub
+
+    'Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk
+    '   PictureBox1.Load(OpenFileDialog1.FileName)
+    'End Sub
 End Class

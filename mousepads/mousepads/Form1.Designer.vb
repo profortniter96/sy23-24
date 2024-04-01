@@ -39,6 +39,7 @@ Partial Class Form1
         Me.UserControl31 = New mousepads.UserControl3()
         Me.UserControl11 = New mousepads.UserControl1()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -206,11 +207,21 @@ Partial Class Form1
         Me.Label3.Text = "OWNED"
         Me.Label3.Visible = False
         '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(22, 337)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(104, 85)
+        Me.Button8.TabIndex = 42
+        Me.Button8.Text = "Image"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(424, 520)
+        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label1)
@@ -257,4 +268,5 @@ Partial Class Form1
     Friend WithEvents UserControl31 As UserControl3
     Friend WithEvents UserControl11 As UserControl1
     Friend WithEvents Label3 As Label
+    Friend WithEvents Button8 As Button
 End Class
