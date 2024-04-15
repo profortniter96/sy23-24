@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>RC Custom Mousepads</title>
+    <h1>RC Custom Mousepads</h1>
+    <h2>Pick from different colors that match your style!</h2>
+</head>
+<body>
+    <p>Please select color</p>
+    <head>
+        <script>
+            function preLoad() {
+                a1 = new Image; a1.src = '../img/redpad.png';
+                a2 = new Image; a2.src = '../img/blackpad.png';
+                a3 = new Image; a3.src = '../img/bluepad.png';
+                a4 = new Image; a4.src = '../img/pinkpad.png';
+                a5 = new Image; a5.src = '../img/whitepad.png';
+            }
+            function im(image) {
+                document.getElementById(image[0]).src = eval(image + ".src")
+            }
+        </script>
+    </head>
+
+    <body onLoad="preLoad()">
+        <form autocomplete="off">
+            <input type="radio" name="1" onClick="im('a1');" checked>
+
+            <input type="radio" name="1" onClick="im('a2');">
+            <input type="radio" name="1" onClick="im('a3');">
+            <input type="radio" name="1" onClick="im('a4');">
+            <input type="radio" name="1" onClick="im('a5');">
+        </form>
+        <img id="a" src="images/pitAuto.jpg" width="300" height="200" alt="">
+    </body>
+    <div class="header">
+        <div class="header-right">
+            <a href="file:///C:/Users/rkgib075/Desktop/sy23-24/My%20site/src/AboutUs.html">About</a>
+        </div>
+    </div>
